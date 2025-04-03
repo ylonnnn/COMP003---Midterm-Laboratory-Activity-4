@@ -19,13 +19,6 @@ int *getStudentGrades(const int *students) {
     cin >> grade;
 
     if (grade < 0 || grade > 100 || cin.fail()) {
-
-      //   For Termination:
-      //   string err = "Grade must be between 0 to 100";
-
-      //   cout << err << "\n";
-      //   throw range_error(err);
-
       //   Constant Loop
       i--;
 
